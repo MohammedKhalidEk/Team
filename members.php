@@ -1,5 +1,5 @@
 <?php
-ob_start();
+ob_start(); // Turn On Output Buffering
 /*
 ============================================
 == Manage Members Page
@@ -7,7 +7,7 @@ ob_start();
 ============================================
 */
 
-session_start(); // Turn On Output Buffering
+session_start(); 
 $pageTitle = 'Members';
  if (isset($_SESSION['UserName'])) // If There Is Any Session Opened
 {
